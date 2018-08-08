@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AccessibilityDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="867"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYN-Lv-azK">
+                                <rect key="frame" x="8" y="28" width="359" height="831"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="4Je-WE-p8E">
+                                        <rect key="frame" x="8" y="8" width="343" height="800"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BdM-ts-5T3">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="200"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-Wv-mgT">
+                                                        <rect key="frame" x="8" y="8" width="327" height="184"/>
+                                                        <string key="text">Item 1 is a plain text label. Contents are read in this way.
+
+This is a new line.
+
+This is what it happens when the line is too long. Repeat 2, This is what it happens when the line is too long. Repeat 3, This is what it happens when the line is too long. Repeat 4, This is what it happens when the line is too long. </string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="3Zj-aP-Ye9"/>
+                                                    <constraint firstItem="ugc-Wv-mgT" firstAttribute="leading" secondItem="BdM-ts-5T3" secondAttribute="leading" constant="8" id="Fpt-me-sUC"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ugc-Wv-mgT" secondAttribute="bottom" constant="8" id="GUT-N0-DZi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ugc-Wv-mgT" secondAttribute="trailing" constant="8" id="Qs4-nj-X8Y"/>
+                                                    <constraint firstItem="ugc-Wv-mgT" firstAttribute="top" secondItem="BdM-ts-5T3" secondAttribute="top" constant="8" id="xuJ-XJ-Bqh"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJM-Ax-RlU">
+                                                <rect key="frame" x="0.0" y="200" width="343" height="200"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a placeholder." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd1-oU-XB6">
+                                                        <rect key="frame" x="8" y="8" width="327" height="184"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="gd1-oU-XB6" firstAttribute="top" secondItem="VJM-Ax-RlU" secondAttribute="top" constant="8" id="Bmi-CU-FRq"/>
+                                                    <constraint firstAttribute="height" constant="200" id="SXQ-ab-kp1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="gd1-oU-XB6" secondAttribute="bottom" constant="8" id="b4I-rz-ahB"/>
+                                                    <constraint firstItem="gd1-oU-XB6" firstAttribute="leading" secondItem="VJM-Ax-RlU" secondAttribute="leading" constant="8" id="e1g-gI-Imi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="gd1-oU-XB6" secondAttribute="trailing" constant="8" id="v5I-HF-44S"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFt-bv-rHT">
+                                                <rect key="frame" x="0.0" y="400" width="343" height="200"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4No-U9-HqJ">
+                                                        <rect key="frame" x="8" y="8" width="327" height="184"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <string key="text">Item 3 is a text view. Contents are read in this way.
+
+This is a new line.
+
+This is what it happens when the line is too long. Repeat 2, This is what it happens when the line is too long. Repeat 3, This is what it happens when the line is too long. Repeat 4, This is what it happens when the line is too long. </string>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="4No-U9-HqJ" secondAttribute="trailing" constant="8" id="1HK-l7-wW2"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4No-U9-HqJ" secondAttribute="bottom" constant="8" id="JFG-Uq-ffw"/>
+                                                    <constraint firstItem="4No-U9-HqJ" firstAttribute="top" secondItem="rFt-bv-rHT" secondAttribute="top" constant="8" id="WaF-F9-cEe"/>
+                                                    <constraint firstItem="4No-U9-HqJ" firstAttribute="leading" secondItem="rFt-bv-rHT" secondAttribute="leading" constant="8" id="aWW-85-9sd"/>
+                                                    <constraint firstAttribute="height" constant="200" id="met-85-uW3"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGQ-ih-w8K">
+                                                <rect key="frame" x="0.0" y="600" width="343" height="200"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="Sja-ez-Enz"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="rFt-bv-rHT" secondAttribute="trailing" id="1Xo-TM-4Bs"/>
+                                            <constraint firstItem="VJM-Ax-RlU" firstAttribute="top" secondItem="BdM-ts-5T3" secondAttribute="bottom" id="2f1-Bk-Y5F"/>
+                                            <constraint firstAttribute="trailing" secondItem="BdM-ts-5T3" secondAttribute="trailing" id="5yh-IF-Edf"/>
+                                            <constraint firstItem="IGQ-ih-w8K" firstAttribute="leading" secondItem="4Je-WE-p8E" secondAttribute="leading" id="ECo-xq-q2w"/>
+                                            <constraint firstItem="IGQ-ih-w8K" firstAttribute="top" secondItem="rFt-bv-rHT" secondAttribute="bottom" id="IYi-2n-Ad2"/>
+                                            <constraint firstAttribute="trailing" secondItem="IGQ-ih-w8K" secondAttribute="trailing" id="MtW-Ra-koU"/>
+                                            <constraint firstItem="VJM-Ax-RlU" firstAttribute="leading" secondItem="4Je-WE-p8E" secondAttribute="leading" id="Rbi-Vo-eff"/>
+                                            <constraint firstItem="BdM-ts-5T3" firstAttribute="top" secondItem="4Je-WE-p8E" secondAttribute="top" id="gW3-jn-LMn"/>
+                                            <constraint firstItem="rFt-bv-rHT" firstAttribute="leading" secondItem="4Je-WE-p8E" secondAttribute="leading" id="irF-IA-3YH"/>
+                                            <constraint firstItem="BdM-ts-5T3" firstAttribute="leading" secondItem="4Je-WE-p8E" secondAttribute="leading" id="lHM-mT-LiA"/>
+                                            <constraint firstItem="rFt-bv-rHT" firstAttribute="top" secondItem="VJM-Ax-RlU" secondAttribute="bottom" id="o7g-dG-uFp"/>
+                                            <constraint firstAttribute="trailing" secondItem="VJM-Ax-RlU" secondAttribute="trailing" id="qVa-jq-mgC"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="4Je-WE-p8E" firstAttribute="top" secondItem="vYN-Lv-azK" secondAttribute="top" constant="8" id="4f5-X2-qeN"/>
+                                    <constraint firstAttribute="bottom" secondItem="4Je-WE-p8E" secondAttribute="bottom" constant="8" id="HfR-UF-xrX"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Je-WE-p8E" secondAttribute="trailing" constant="8" id="RcE-PJ-XzX"/>
+                                    <constraint firstItem="4Je-WE-p8E" firstAttribute="width" secondItem="vYN-Lv-azK" secondAttribute="width" constant="-16" id="bbn-1Q-QeE"/>
+                                    <constraint firstItem="4Je-WE-p8E" firstAttribute="leading" secondItem="vYN-Lv-azK" secondAttribute="leading" constant="8" id="utq-Hw-oQv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vYN-Lv-azK" secondAttribute="bottom" constant="8" id="JXx-uO-XLi"/>
+                            <constraint firstItem="vYN-Lv-azK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="RaH-KX-WSy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vYN-Lv-azK" secondAttribute="trailing" constant="8" id="Vc1-1a-5as"/>
+                            <constraint firstItem="vYN-Lv-azK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="28" id="hSE-lB-5G7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="867"/>
+                    <connections>
+                        <outlet property="dockWebView" destination="IGQ-ih-w8K" id="woD-Mf-SxZ"/>
+                        <outlet property="label" destination="gd1-oU-XB6" id="OiZ-VH-8KF"/>
+                        <outlet property="textView" destination="4No-U9-HqJ" id="f82-R2-cQK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

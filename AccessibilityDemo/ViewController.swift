@@ -98,6 +98,7 @@ class ViewController: UIViewController, UITextViewDelegate, WKNavigationDelegate
         let white = UIColor.black
        
 		let rawText = "Investment products and services are offered through J.P. Morgan Securities LLC (JPMS), a Member of FINRA and SIPC."
+		let font = UIFont.systemFont(ofSize: 16)
         if let sRange = rawText.range(of: "FINRA"),
             let fRange = rawText.range(of: "SIPC") {
             let attributedString = NSMutableAttributedString(string: rawText)
@@ -109,7 +110,9 @@ class ViewController: UIViewController, UITextViewDelegate, WKNavigationDelegate
             attributedString.addAttribute(NSAttributedStringKey.link , value: "http://apple.com", range: NSRange(fRange, in: rawText))
             attributedString.addAttribute(NSAttributedStringKey.underlineStyle , value: NSUnderlineStyle.styleSingle.rawValue, range: NSRange(fRange, in: rawText))
             attributedString.addAttribute(NSAttributedStringKey.foregroundColor , value: white, range: NSRange(fRange, in: rawText))
-            
+			
+			attributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: white, range: NSRange(rawText.startIndex..<rawText.endIndex, in: rawText))
+			attributedString.addAttribute(NSAttributedStringKey.font, value: font, range: NSRange(rawText.startIndex..<rawText.endIndex, in: rawText))
 			//attributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: white, range: NSRange(rawText.range(from: rawText.startIndex..<rawText.endIndex), in: rawText))
             
             textView.attributedText = attributedString

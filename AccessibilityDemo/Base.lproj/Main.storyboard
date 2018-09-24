@@ -328,18 +328,18 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cpJ-MF-OKu">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                                                     <color key="backgroundColor" red="0.92687419039999996" green="0.92687419039999996" blue="0.92687419039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c7H-r9-Ptm">
-                                                        <size key="itemSize" width="364" height="87"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zld-DO-NYX">
+                                                        <size key="itemSize" width="50" height="50"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
                                                         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionStackCell" id="t79-TV-VCY" customClass="CollectionStackCell" customModule="AccessibilityDemo" customModuleProvider="target">
-                                                            <rect key="frame" x="5.5" y="0.0" width="364" height="87"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                                <rect key="frame" x="0.0" y="0.0" width="364" height="87"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="X2E-mL-18E">
@@ -357,7 +357,7 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RT-IR-lcL">
                                                                                 <rect key="frame" x="0.0" y="11" width="364" height="11"/>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="backgroundColor" red="0.92687419039999996" green="0.92687419039999996" blue="0.92687419039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="9xj-ko-fFQ"/>
                                                                                 </constraints>
@@ -377,7 +377,7 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T22-uV-Amq">
                                                                                 <rect key="frame" x="0.0" y="32.5" width="364" height="11"/>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="backgroundColor" red="0.92687419039999996" green="0.92687419039999996" blue="0.92687419039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="3ph-xk-ieM"/>
                                                                                 </constraints>
@@ -397,7 +397,7 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXE-Kt-j1Z">
                                                                                 <rect key="frame" x="0.0" y="54.5" width="364" height="11"/>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="backgroundColor" red="0.92687419039999996" green="0.92687419039999996" blue="0.92687419039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="3sW-v8-nxr"/>
                                                                                 </constraints>
@@ -417,7 +417,7 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iK0-mx-znM">
                                                                                 <rect key="frame" x="0.0" y="76" width="364" height="11"/>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="backgroundColor" red="0.92687419039999996" green="0.92687419039999996" blue="0.92687419039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="Psg-cs-TgU"/>
                                                                                 </constraints>
@@ -430,6 +430,7 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                                                 </subviews>
                                                             </view>
                                                             <constraints>
+                                                                <constraint firstItem="X2E-mL-18E" firstAttribute="height" secondItem="t79-TV-VCY" secondAttribute="height" id="Foo-V8-JBe"/>
                                                                 <constraint firstItem="X2E-mL-18E" firstAttribute="leading" secondItem="t79-TV-VCY" secondAttribute="leading" id="bNY-6Y-XrW"/>
                                                                 <constraint firstAttribute="bottom" secondItem="X2E-mL-18E" secondAttribute="bottom" id="bvl-KG-84h"/>
                                                                 <constraint firstAttribute="trailing" secondItem="X2E-mL-18E" secondAttribute="trailing" id="dH0-HF-1xI"/>
@@ -445,6 +446,7 @@ This is what it happens when the line is too long. Repeat 2, This is what it hap
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="cpJ-MF-OKu" secondAttribute="bottom" id="3zU-70-jtc"/>
+                                                <constraint firstItem="cpJ-MF-OKu" firstAttribute="height" secondItem="uec-ph-dTw" secondAttribute="height" id="LrX-Ef-zll"/>
                                                 <constraint firstAttribute="trailing" secondItem="cpJ-MF-OKu" secondAttribute="trailing" id="P5G-6u-L0B"/>
                                                 <constraint firstItem="cpJ-MF-OKu" firstAttribute="top" secondItem="uec-ph-dTw" secondAttribute="top" id="Zrn-jo-gtD"/>
                                                 <constraint firstItem="cpJ-MF-OKu" firstAttribute="leading" secondItem="uec-ph-dTw" secondAttribute="leading" id="gOk-pc-SxC"/>
